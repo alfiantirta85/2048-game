@@ -3,7 +3,7 @@ run-name: Build, Push and Deploy Image
 on: 
   push:
     branches:
-      - master
+      - main
 env:
   IMAGE_NAME: "alfian8/2048-username"
 jobs:
